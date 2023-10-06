@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Farewell Parties",
+        "image": "https://i.ibb.co/6wwf4K6/Farewell-Parties.jpg",
+        "price": 50.00
+    },
+    {
+        "id": 2,
+        "name": "Graduation Parties",
+        "image": "https://i.ibb.co/Y2jnP5L/Graduation-Parties.jpg",
+        "price": 75.00
+    },
+    {
+        "id": 3,
+        "name": "Birthday Parties",
+        "image": "https://i.ibb.co/sCYLW2W/Birthday-Parties.jpg",
+        "price": 40.00
+    },
+    {
+        "id": 4,
+        "name": "Anniversaries",
+        "image": "https://i.ibb.co/bPkjYbw/Anniversaries.jpg",
+        "price": 60.00
+    },
+    {
+        "id": 5,
+        "name": "Retirement Parties",
+        "image": "https://i.ibb.co/rfkSQbH/Retirement-Parties.jpg",
+        "price": 55.00
+    },
+    {
+        "id": 6,
+        "name": "Weddings",
+        "image": "https://i.ibb.co/THQtWCm/Weddings.jpg",
+        "price": 150.00
+    },
+    {
+        "id": 7,
+        "name": "Engagement Parties",
+        "image": "https://i.ibb.co/SmpCYd2/Engagement-Parties.jpg",
+        "price": 65.00
+    },
+    {
+        "id": 8,
+        "name": "Baby Showers",
+        "image": "https://i.ibb.co/0ZHVzzh/Baby-Showers.jpg",
+        "price": 30.00
+    }
+]

@@ -1,31 +1,40 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
+import LoginWithGoogle from "../LoginWithGoogle/LoginWithGoogle";
 
 const Register = () => {
     const [isShow,setIsShow] = useState(false)
     const handleRegister = e => {
         e.preventDefault();
         const name = e.target.name.value;
+        const photo = e.target.photo.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(name, email, password);
+        console.log(name,photo, email, password);
     }
     return (
         
-        <div className="hero min-h-[75vh]">
+        <div className="hero min-h-[75vh] my-10">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="text-center lg:text-left">
-                <h1 className="text-5xl font-bold">Login now!</h1>
+                <h1 className="text-5xl font-bold">Register now!</h1>
                 <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                <form className="card-body" onSubmit={handleRegister}>
+                <LoginWithGoogle/>
+                <form className="card-body pt-2" onSubmit={handleRegister}>
                     <div className="form-control">
                     <label className="label">
                         <span className="label-text">Name</span>
                     </label>
                     <input type="text" name="name" placeholder="Your name" className="input input-bordered" required />
+                    </div>
+                    <div className="form-control">
+                    <label className="label">
+                        <span className="label-text">Image url</span>
+                    </label>
+                    <input type="text" name="photo" placeholder="Image url" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">

@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import './Navbar.css'
+import useAuth from "../../../Hock/useAuth";
 const Navbar = () => {
+    const {user} = useAuth()
     const navLink = 
     <>
      <li>
@@ -33,7 +35,26 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn" to={'/login'}>Login</Link>
+                {
+                    user
+                    ?
+                    <>
+                            <div className="dropdown dropdown-end">
+                                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                                    <div className="w-10 rounded-full">
+                                    <img src={user?.photoURL} />
+                                    </div>
+                                </label>
+                                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-60">
+                                    <li><a>{user?.displayName}</a></li>
+                                    <li><a>Logout</a></li>
+                                </ul>
+                            </div>
+
+                    </>
+                    :
+                    <Link className="btn" to={'/login'}>Login</Link>
+                }
             </div>
         </div>
     );

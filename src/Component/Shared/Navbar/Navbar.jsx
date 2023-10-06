@@ -2,7 +2,13 @@ import { Link, NavLink } from "react-router-dom";
 import './Navbar.css'
 import useAuth from "../../../Hock/useAuth";
 const Navbar = () => {
-    const {user} = useAuth()
+    const {user, logout} = useAuth()
+    const handleLogout = () => {
+        logout()
+        .then(()=> {
+        alert('logout')
+        })
+    }
     const navLink = 
     <>
      <li>
@@ -47,7 +53,7 @@ const Navbar = () => {
                                 </label>
                                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-60">
                                     <li><a>{user?.displayName}</a></li>
-                                    <li><a>Logout</a></li>
+                                    <li onClick={handleLogout}><a>Logout</a></li>
                                 </ul>
                             </div>
 

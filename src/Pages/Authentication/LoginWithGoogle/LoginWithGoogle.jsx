@@ -11,6 +11,7 @@ const LoginWithGoogle = () => {
         .then(result=> {
             console.log(result.user);
             navigate('/')
+            alert('login')
             updateProfile(auth.result.user, {
                 displayName: result?.user?.displayName, 
                 photoURL: result?.user?.photoURL

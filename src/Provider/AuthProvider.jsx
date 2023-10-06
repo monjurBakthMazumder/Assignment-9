@@ -1,4 +1,4 @@
-import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup } from "firebase/auth";
+import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import auth from "../Firebase/firebase.config";
 import PropTypes from 'prop-types';
@@ -15,10 +15,15 @@ const AuthProvider = ({children}) => {
         return signInWithPopup(auth, googleProvider)
     }
 
+    const logout = () => {
+        return signOut(auth)
+    }
+
     const authInfo = {
         user,
         loading,
-        loginWithGoogle
+        loginWithGoogle,
+        logout
     }
 
     useEffect(()=>{

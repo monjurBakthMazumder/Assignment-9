@@ -1,10 +1,16 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
 import LoginWithGoogle from "../LoginWithGoogle/LoginWithGoogle";
-
+import useAuth from "../../../Hock/useAuth";
+import { updateProfile } from "firebase/auth";
+import swal from 'sweetalert';
 const Register = () => {
     const [isShow,setIsShow] = useState(false)
+
+    const navigate = useNavigate()
+
+    const {createUser} = useAuth()
     const handleRegister = e => {
         e.preventDefault();
         const name = e.target.name.value;
@@ -12,6 +18,28 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         console.log(name,photo, email, password);
+        if(password.length < 6){
+            swal ( "Oops" ,  "password must be at least 6 characters" ,  "error" )
+            return
+        }
+        if(!/[A-Z]/.test(password)){
+              swal ( "Oops" ,  "password must be at least one capital letter" ,  "error" )
+             return
+        }
+        if(!/[!@#$%^&*()_+{}[\]:;<>,.?~\\-]/.test(password)){
+            swal ( "Oops" ,  "password must be at least one special character" ,  "error" )
+            return
+        }
+        // create user 
+        createUser(email, password)
+        .then(result=> {
+            navigate('/')
+            updateProfile(result.user, {
+                displayName: name, 
+                photoURL: photo
+              })
+              
+        })
     }
     return (
         

@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import useAuth from "../../../Hock/useAuth";
 import { FcGoogle } from 'react-icons/fc';
 import { updateProfile } from "firebase/auth";
-import auth from "../../../Firebase/firebase.config";
 const LoginWithGoogle = () => {
     const navigate = useNavigate()
     const {loginWithGoogle} = useAuth();
@@ -12,7 +11,7 @@ const LoginWithGoogle = () => {
             console.log(result.user);
             navigate('/')
             alert('login')
-            updateProfile(auth.result.user, {
+            updateProfile(result.user, {
                 displayName: result?.user?.displayName, 
                 photoURL: result?.user?.photoURL
             })

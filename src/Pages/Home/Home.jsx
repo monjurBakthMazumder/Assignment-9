@@ -4,7 +4,6 @@ import useGetData from "../../Hock/useGetData";
 
 const Home = () => {
     const [allData] = useGetData();
-    console.log(allData);
     return (
         <div>
             <Banner/>

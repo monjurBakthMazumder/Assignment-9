@@ -3,48 +3,56 @@
         "id": 1,
         "name": "Farewell Parties",
         "image": "https://i.ibb.co/6wwf4K6/Farewell-Parties.jpg",
-        "price": 50.00
+        "price": 50.00,
+        "description": "Bid adieu to cherished colleagues and friends with our Farewell Parties. These gatherings are a heartfelt farewell to those embarking on new journeys. Celebrate the memories, laughter, and shared experiences that made your time together unforgettable. Our Farewell Parties are a tribute to the bonds forged in the workplace or in life, offering a chance to express gratitude and well wishes for the future. From heartfelt speeches to personalized mementos, we ensure that your farewell is a memorable and emotional event. Say goodbye with a smile, knowing that the connections you've made will last a lifetime. Let us help you create a farewell that captures the essence of the moments you've shared and the adventures that lie ahead. Farewell Parties - because saying goodbye should be beautiful."
     },
     {
         "id": 2,
         "name": "Graduation Parties",
         "image": "https://i.ibb.co/Y2jnP5L/Graduation-Parties.jpg",
-        "price": 75.00
+        "price": 75.00,
+        "description": "Our Graduation Parties are a tribute to your academic accomplishments. They're a joyous salute to the hard work and dedication that led to this milestone. Share your achievements with loved ones, revel in your success, and embrace the future. Graduation is a defining moment in life, and we're here to make it unforgettable. Whether it's a high school graduation or a college degree, our parties are designed to honor your journey and celebrate your potential. From cap and gown photo ops to inspirational speeches, we ensure your Graduation Party captures the essence of this significant achievement. Let us help you create a memorable event that marks the beginning of new adventures and opportunities. Graduation Parties - because your success deserves to be celebrated."
     },
     {
         "id": 3,
         "name": "Birthday Parties",
         "image": "https://i.ibb.co/sCYLW2W/Birthday-Parties.jpg",
-        "price": 40.00
+        "price": 40.00,
+        "description": "Celebrate life's milestones with our Birthday Parties. Whether young or young-at-heart, our events promise laughter, cake, and memorable moments. Make a wish and blow out the candles surrounded by the warmth of family and friends. Birthdays are a time to rejoice in another year of life's journey, and our Birthday Parties are all about making that day truly special. From themed decorations to delicious cakes, we ensure that your celebration is as unique as you are. Whether it's a child's first birthday or a grandparent's 90th, we cater to all ages and preferences. We believe that every year is worth celebrating, and our parties are designed to create lasting memories. Let us help you plan the perfect birthday bash that brings smiles and happiness to all. Birthday Parties - because life is a collection of beautiful moments, and birthdays are some of the brightest."
     },
     {
         "id": 4,
         "name": "Anniversaries",
         "image": "https://i.ibb.co/bPkjYbw/Anniversaries.jpg",
-        "price": 60.00
+        "price": 60.00,
+        "description": "Mark the enduring love between you and your partner with our Anniversary celebrations. Each year is a testament to your commitment, and our gatherings encapsulate the journey of your relationship, creating new memories for the future. Anniversaries are a time to reflect on the love, commitment, and growth that have characterized your journey together. Our Anniversary Parties are designed to honor your unique story and create new chapters in your shared history. From romantic settings to personalized touches, we ensure that your celebration is a heartfelt tribute to your love. Whether it's your first year of marriage or your fiftieth, we help you express your love and appreciation. Let us plan the perfect Anniversary Party that captures the essence of your enduring bond and sets the stage for many more years of happiness. Anniversaries - because love only grows stronger with time, and every year together is worth celebrating."
     },
     {
         "id": 5,
         "name": "Retirement Parties",
         "image": "https://i.ibb.co/rfkSQbH/Retirement-Parties.jpg",
-        "price": 55.00
+        "price": 55.00,
+        "description": "Retire in style with our Retirement Parties. These events honor your career achievements and welcome a new chapter of leisure and relaxation. Bid farewell to the working world and embrace the freedom of retirement. Retirement is a well-deserved reward for years of dedication and hard work. Our Retirement Parties are designed to make the transition from the professional world to the world of leisure seamless and enjoyable. Whether you're planning your own retirement celebration or honoring a colleague, we ensure it's a memorable event. From speeches that capture your career highlights to the excitement of new adventures, we make sure your retirement is a time of joy and anticipation. Let us help you create a Retirement Party that marks the end of one journey and the beginning of another. Retirement Parties - because the best is yet to come in your retirement years."
     },
     {
         "id": 6,
         "name": "Weddings",
         "image": "https://i.ibb.co/THQtWCm/Weddings.jpg",
-        "price": 150.00
+        "price": 150.00,
+        "description": "Say \"I do\" in grandeur with our Wedding services. We transform your dream wedding into a reality, ensuring a day filled with love, beauty, and unforgettable memories. It's the perfect beginning to your lifelong journey together. Your wedding day is a celebration of love, commitment, and the start of a beautiful journey together. Our Wedding services are designed to make this day the most magical and memorable of your life. From exquisite decor to impeccable planning, we ensure every detail reflects your unique love story. Whether you dream of a traditional ceremony or a modern, unconventional celebration, we make it happen. Let us take the stress out of wedding planning so you can focus on creating cherished memories that will last a lifetime. Weddings - because love deserves to be celebrated in the grandest way."
     },
     {
         "id": 7,
         "name": "Engagement Parties",
         "image": "https://i.ibb.co/SmpCYd2/Engagement-Parties.jpg",
-        "price": 65.00
+        "price": 65.00,
+        "description": "Announce your love to the world with our Engagement Parties. These gatherings set the stage for a lifetime of happiness, surrounded by family and friends who share in your joy and excitement. An engagement is a joyous declaration of love and commitment, and our Engagement Parties are designed to commemorate this significant moment in your life. From elegant decor to heartfelt toasts, we create an atmosphere that reflects the love you and your partner share. It's a time to celebrate with those who matter most and to kick off the journey towards marriage in style. Let us help you plan an Engagement Party that captures the essence of your love story and the excitement of the adventures to come. Engagement Parties - because true love deserves a grand announcement."
     },
     {
         "id": 8,
         "name": "Baby Showers",
         "image": "https://i.ibb.co/0ZHVzzh/Baby-Showers.jpg",
-        "price": 30.00
+        "price": 30.00,
+        "description": "Welcome the impending arrival of your little one with our Baby Showers. These heartwarming gatherings are filled with love, laughter, and anticipation as you prepare for the newest addition to your family. The anticipation of welcoming a new life is a momentous occasion, and our Baby Showers are designed to make it even more special. From adorable decorations to fun games, we create an atmosphere of joy and celebration. It's a time for family and friends to come together, share their love, and offer well-wishes to the parents-to-be. Let us help you plan a Baby Shower that creates beautiful memories and sets the stage for the wonderful journey of parenthood. Baby Showers - because the miracle of life deserves a warm and loving welcome."
     }
 ]

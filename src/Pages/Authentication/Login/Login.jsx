@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AiFillEye, AiFillEyeInvisible } from 'react-icons/ai';
 const Login = () => {
     const [isShow,setIsShow] = useState(false)
-    const handleSubmit = e => {
+    const handleLogin = e => {
         e.preventDefault();
         const email = e.target.email.value;
         const password = e.target.password.value;
@@ -17,12 +17,12 @@ const Login = () => {
                 <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                <form className="card-body" onSubmit={handleSubmit}>
+                <form className="card-body" onSubmit={handleLogin}>
                     <div className="form-control">
                     <label className="label">
                         <span className="label-text">Email</span>
                     </label>
-                    <input type="email" name="email" placeholder="email" className="input input-bordered" required />
+                    <input type="email" name="email" placeholder="Email" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">
@@ -32,7 +32,7 @@ const Login = () => {
                         <input 
                             type={ isShow ? 'text' : "password" }
                             name="password" 
-                            placeholder="password" 
+                            placeholder="Password" 
                             className="input input-bordered w-full pr-10" 
                             required />
                         <span 

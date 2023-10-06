@@ -38,7 +38,7 @@ const Register = () => {
                 displayName: name, 
                 photoURL: photo
               })
-              
+              swal("Successful!", "Account create Successful!", "success");
         })
     }
     return (

@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import useAuth from "../../../Hock/useAuth";
 import { FcGoogle } from 'react-icons/fc';
 import { updateProfile } from "firebase/auth";
+import swal from 'sweetalert';
 const LoginWithGoogle = () => {
     const navigate = useNavigate()
     const {loginWithGoogle} = useAuth();
@@ -10,7 +11,7 @@ const LoginWithGoogle = () => {
         .then(result=> {
             console.log(result.user);
             navigate('/')
-            alert('login')
+            swal("Successful!", "Successfully login!", "success");
             updateProfile(result.user, {
                 displayName: result?.user?.displayName, 
                 photoURL: result?.user?.photoURL

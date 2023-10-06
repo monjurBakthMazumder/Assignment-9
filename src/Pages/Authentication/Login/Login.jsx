@@ -8,6 +8,7 @@ const Login = () => {
     const [isShow,setIsShow] = useState(false)
     const navigate = useNavigate()
     const {loginUser} = useAuth()
+    const pathname = localStorage.getItem('pathname')
     const handleLogin = e => {
         e.preventDefault();
         const email = e.target.email.value;
@@ -17,7 +18,7 @@ const Login = () => {
         loginUser(email, password)
         .then(result=>{
             console.log(result.user);
-            navigate('/')
+            navigate(pathname ? pathname : '/')
             swal("Successful!", "Successfully login!", "success");
         })
         .catch(err => {

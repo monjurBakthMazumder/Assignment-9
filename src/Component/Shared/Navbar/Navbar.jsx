@@ -1,12 +1,14 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import './Navbar.css'
 import useAuth from "../../../Hock/useAuth";
 import swal from 'sweetalert';
 const Navbar = () => {
     const {user, logout} = useAuth()
+    const navigate = useNavigate()
     const handleLogout = () => {
         logout()
         .then(()=> {
+            navigate('/')
             swal("Successful!", "Successfully logout!", "success");
         })
     }

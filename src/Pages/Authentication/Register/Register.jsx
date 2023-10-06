@@ -11,6 +11,7 @@ const Register = () => {
     const navigate = useNavigate()
 
     const {createUser} = useAuth()
+    const pathname = localStorage.getItem('pathname')
     const handleRegister = e => {
         e.preventDefault();
         const name = e.target.name.value;
@@ -33,7 +34,7 @@ const Register = () => {
         // create user 
         createUser(email, password)
         .then(result=> {
-            navigate('/')
+            navigate(pathname ? pathname : '/')
             updateProfile(result.user, {
                 displayName: name, 
                 photoURL: photo

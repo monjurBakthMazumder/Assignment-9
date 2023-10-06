@@ -6,11 +6,12 @@ import swal from 'sweetalert';
 const LoginWithGoogle = () => {
     const navigate = useNavigate()
     const {loginWithGoogle} = useAuth();
+    const pathname = localStorage.getItem('pathname')
     const handleGoogleLogin = () => {
         loginWithGoogle()
         .then(result=> {
             console.log(result.user);
-            navigate('/')
+            navigate(pathname ? pathname : '/')
             swal("Successful!", "Successfully login!", "success");
             updateProfile(result.user, {
                 displayName: result?.user?.displayName, 

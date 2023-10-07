@@ -7,7 +7,7 @@ const AboutCard = ({data}) => {
         <div className="card card-compact bg-base-100 shadow-xl">
             <figure><img src={image} alt={`image of ${name}`} /></figure>
             <div className="card-body">
-                <Link to={`/details/${id}`} className="card-title hover:text-blue-700">{name}</Link>
+                <Link to={`/details/${id}`} className="card-title hover:text-gray-500">{name}</Link>
             </div>
         </div>
     );

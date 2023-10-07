@@ -10,8 +10,8 @@ const HomeCard = ({data}) => {
                 <h2 className="card-title">{name}</h2>
                 <span className='font-medium'>Service charge: ${price}</span>
                 <p className='text-xs text-justify'>{description.slice(0,150)}...</p>
-                <div className="card-actions justify-center">
-                <Link to={`/details/${id}`} className="btn btn-primary btn-sm rounded">details</Link>
+                <div className="card-actions justify-center mt-5">
+                <Link to={`/details/${id}`} className="btn btn-outline btn-neutral btn-sm rounded">details</Link>
                 </div>
             </div>
         </div>

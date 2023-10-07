@@ -1,26 +1,26 @@
 
 const Footer = () => {
     return (
-        <footer className="footer px-[5%] py-10 border-t-4">
+        <footer className="footer px-[5%] py-10 bg-gray-900 text-white">
             <nav>
                 <header className="footer-title">Services</header> 
-                <p className="link link-hover">Branding</p>
-                <p className="link link-hover">Design</p>
-                <p className="link link-hover">Marketing</p>
-                <p className="link link-hover">Advertisement</p>
+                <p>Branding</p>
+                <p>Design</p>
+                <p>Marketing</p>
+                <p>Advertisement</p>
             </nav> 
             <nav>
                 <header className="footer-title">Company</header> 
-                <p className="link link-hover">About us</p>
-                <p className="link link-hover">Contact</p>
-                <p className="link link-hover">Jobs</p>
-                <p className="link link-hover">Press kit</p>
+                <p>About us</p>
+                <p>Contact</p>
+                <p>Jobs</p>
+                <p>Press kit</p>
             </nav> 
             <nav>
                 <header className="footer-title">Legal</header> 
-                <p className="link link-hover">Terms of use</p>
-                <p className="link link-hover">Privacy policy</p>
-                <p className="link link-hover">Cookie policy</p>
+                <p>Terms of use</p>
+                <p>Privacy policy</p>
+                <p>Cookie policy</p>
             </nav>
         </footer>
     );

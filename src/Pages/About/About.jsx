@@ -9,7 +9,7 @@ const About = () => {
         <div>
             <Banner/>
             <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 px-[5%]">About us</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-[5%] my-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-[5%] my-10">
                 <img src="https://i.ibb.co/vvqL5mh/about.jpg" alt="" />
                 <div className="">
                     <p className="mb-2 text-justify">Welcome to Mazumder, your one-stop destination for creating unforgettable and seamless social gatherings. Our website is designed to cater to a wide range of occasions, including Farewell Parties, Graduation Parties, Birthday Parties, Anniversaries, Retirement Parties, Weddings, Engagement Parties, and Baby Showers.</p>

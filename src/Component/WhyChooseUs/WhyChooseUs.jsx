@@ -3,7 +3,7 @@ const WhyChooseUs = () => {
     return (
         <div className="px-[5%] my-10 lg:my-14">
             <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold mb-10">Why Choose Us</h1>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-5">
+            <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-5">
                 <div className="flex-1">
                     <div className="collapse collapse-arrow border">
                         <input type="radio" name="my-accordion-2" checked="checked" /> 

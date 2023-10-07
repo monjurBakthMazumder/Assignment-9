@@ -16,7 +16,6 @@ const DetailsCard = (data) => {
                 <p  className='text-justify'>{description}</p>
                 <div className="card-actions my-5">
                 <button className="btn btn-primary" onClick={handleGoBack}>Go Back</button>
-                <button className="btn btn-primary">Buy Now</button>
                 </div>
             </div>
         </div>

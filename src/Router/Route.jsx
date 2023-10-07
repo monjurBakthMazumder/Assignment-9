@@ -6,6 +6,7 @@ import Details from "../Pages/Details/Details";
 import Login from "../Pages/Authentication/Login/Login";
 import Register from "../Pages/Authentication/Register/Register";
 import PrivateRoute from "./PrivateRoute";
+import Contact from "../Pages/Contact/Contact";
 
 const Route = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const Route = createBrowserRouter([
             {
                 path: '/details/:id',
                 element: <PrivateRoute><Details/></PrivateRoute>
+            },
+            {
+                path: '/contact',
+                element: <PrivateRoute><Contact/></PrivateRoute>
             },
             {
                 path: '/login',

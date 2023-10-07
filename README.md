@@ -1,6 +1,6 @@
 # Mazumder
 
-- [Live link](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+- [Live link](https://mazumder-ad373.web.app/)
 
 #### some different features and functionalities of this website. 
 

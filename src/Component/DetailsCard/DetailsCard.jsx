@@ -9,8 +9,8 @@ const DetailsCard = (data) => {
     }
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-            <figure><img src={image} alt={`image of ${image}`} className='w-full'/></figure>
-            <div className="card-body p-0">
+            <figure data-aos="zoom-in"><img src={image} alt={`image of ${image}`} className='w-full'/></figure>
+            <div className="card-body p-0"  data-aos="zoom-in">
                 <h2 className="text-2xl lg:text-3xl font-bold">{name}</h2>
                 <p className='card-title'>Service charge: ${price}</p>
                 <p  className='text-justify'>{description}</p>

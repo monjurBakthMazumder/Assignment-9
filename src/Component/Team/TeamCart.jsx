@@ -3,7 +3,7 @@ import { AiFillFacebook, AiFillInstagram, AiFillTwitterSquare } from 'react-icon
 const TeamCart = ({team}) => {
     const {name,image} = team || {};
     return (
-        <div className="card card-compact">
+        <div className="card card-compact"  data-aos="zoom-in">
             <figure className='w-52 h-52 rounded-full'><img src={image} alt={`image of ${name}`} /></figure>
             <div className="card-body">
                 <h2 className="card-title mx-auto">{name}</h2>

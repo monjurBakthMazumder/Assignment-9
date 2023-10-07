@@ -1,7 +1,9 @@
 
 const BestDeal = () => {
     return (
-        <div className="bg-gray-800 text-white py-10 md:py-14 px-[5%] text-center">
+        <div className="bg-gray-800 text-white py-10 md:py-14 px-[5%] text-center"  >
+            <div className="" data-aos="zoom-in">
+
             <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold">Best Deal of the Day</h1>
                 <p className="text-lg sm:text-xl lg:text-2xl my-5">30% discount in every service</p>
                 <div className="flex justify-center items-center">
@@ -26,6 +28,7 @@ const BestDeal = () => {
                     </div>
                     </div>
                 </div>
+            </div>
         </div>
     );
 };

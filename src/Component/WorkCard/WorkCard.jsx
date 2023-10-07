@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 const WorkCard = ({work}) => {
     const {name, image} = work;
     return (
-        <div className="card border">
+        <div className="card border" data-aos="zoom-in">
         <div className="card-body py-2 px-5 rounded">
             <h2 className="card-title">{name}</h2>
         </div>

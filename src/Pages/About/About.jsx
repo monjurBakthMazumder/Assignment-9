@@ -8,10 +8,10 @@ const About = () => {
     return (
         <div>
             <Banner/>
-            <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 px-[5%]">About us</h1>
+            <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 px-[5%]" data-aos="zoom-in">About us</h1>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 px-[5%] my-10">
-                <img src="https://i.ibb.co/vvqL5mh/about.jpg" alt="" />
-                <div className="">
+                <img src="https://i.ibb.co/vvqL5mh/about.jpg" alt=""  data-aos="zoom-in"/>
+                <div className=""  data-aos="zoom-in">
                     <p className="mb-2 text-justify">Welcome to Mazumder, your one-stop destination for creating unforgettable and seamless social gatherings. Our website is designed to cater to a wide range of occasions, including Farewell Parties, Graduation Parties, Birthday Parties, Anniversaries, Retirement Parties, Weddings, Engagement Parties, and Baby Showers.</p>
                     <p className="mb-2 text-justify">At Mazumder, we understand that every event is unique and deserves personalized attention. Here&apos;s what sets us apart:</p>
                     <p className="mb-2 text-justify"><b>Tailored Experiences: </b>We believe that your event should reflect your style and preferences. Our team of experienced event planners will work closely with you to understand your vision and bring it to life.</p>
@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <Team/>
             <div className="">
-                <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 px-[5%]">Our Event </h1>
+                <h1 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold mt-10 px-[5%]" data-aos="zoom-in">Our Event </h1>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 my-10 px-[5%]">
                 {
                     allData?.map(data=> 

@@ -20,7 +20,7 @@ console.log(greetign);
 
 #### Answer: A: `{}`
 
-<i>Write your explanation here</i>
+<i>Here first a variable named greeting is declared and then an empty object is set as its value and then the greeting is logged to console.log.  Here the output will be an empty object.  Because the empty object is a truthy value the empty object will show as out nothing else.</i>
 
 </p>
 </details>
@@ -45,7 +45,7 @@ sum(1, "2");
 
 #### Answer: C: `"12"`
 
-<i>Write your explanation here</i>
+<i>Here first a function named sum is declared.  which takes two parameters a and b.  Then the sum of the two parameters is returned from inside the function.  Now when the function is called it is given 1 and "2" as parameters.  Here 1 is number type and 2 is string type.  Which will communicate 12.</i>
 
 </p>
 </details>
@@ -71,7 +71,7 @@ console.log(food);
 
 #### Answer: A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Here food means an array declared.  Out of which there are 4 values.  Then an object called info is declared and its favoriteFood key value is set to the value of 0 index of food.  Then the value of favoriteFood key of info objects is changed.  Then the food is console.log.  The point here is that the value of the food array will not change.  Because food is an array and info is an object whose favoriteFood key value is changed, which is not related to the food array</i>
 
 </p>
 </details>
@@ -94,9 +94,10 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: --- B: `Hi there, undefined`
+#### Answer: B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>Here first a function named sayHi is declared and it has a parameter name name which is returned by connecting Hi there from inside the function.  That is, when the function is called, the parameter given will be shown after Hi there.
+ But later when sayHi console.log is not given any parameter, the output shows Hi there, undefined.  Because not giving any parameter will show undefined instead of name.  That is, the parameter is not defined.</i>
 
 </p>
 </details>
@@ -124,7 +125,8 @@ console.log(count);
 
 #### Answer: C: 3
 
-<i>Write your explanation here</i>
+<i>Here a variable called count is declared with an initial value of 0.  Then an array named num is declared with length 4.
+ Now forEach is map to the num array.  Since length of num is 4, map runs 4 times.  The condition inside map is that if the value of num is truty then the value of count will be incremented by 1.  Here the value of num is truty except 0.  That is map will run 4 times and condition will be true 3 times resulting in value of count will be 3.</i>
 
 </p>
 </details>

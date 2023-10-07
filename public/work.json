@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Farewell Parties",
+        "image": "https://i.ibb.co/twRH8YR/Farewell-Parties.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Graduation Parties",
+        "image": "https://i.ibb.co/FwBP4DR/Graduation-Parties.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Birthday Parties",
+        "image": "https://i.ibb.co/ds95vyq/Birthday-Parties.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Anniversaries",
+        "image": "https://i.ibb.co/cYY6RWM/Anniversaries.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Retirement Parties",
+        "image": "https://i.ibb.co/pR5Cfdx/Retirement-Parties.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Weddings",
+        "image": "https://i.ibb.co/37JdjzP/Weddings.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Engagement Parties",
+        "image": "https://i.ibb.co/F75dRj4/Engagement-Parties.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Baby Showers",
+        "image": "https://i.ibb.co/yqzgLF4/Baby-Showers.jpg"
+    }
+]

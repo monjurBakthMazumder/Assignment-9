@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "image": "https://i.ibb.co/DrFkb7C/team-1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "image": "https://i.ibb.co/ts3qfQy/team-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "image": "https://i.ibb.co/gdM7gns/team-3.jpg"
+    }
+  ]

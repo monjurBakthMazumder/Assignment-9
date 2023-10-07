@@ -24,6 +24,26 @@ const Navbar = () => {
         Home
         </NavLink>
      </li>
+     <li>
+        <NavLink
+            to="/about"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "chill" : ""
+            }
+        >
+        About
+        </NavLink>
+     </li>
+     <li>
+        <NavLink
+            to="/contact"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "chill" : ""
+            }
+        >
+        Contact
+        </NavLink>
+     </li>
     </>
     return (
         <div className="navbar bg-base-100 border-b-2 md:px-[5%] sticky top-0 z-50">

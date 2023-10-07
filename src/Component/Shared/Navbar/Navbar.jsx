@@ -1,5 +1,4 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
-import './Navbar.css'
 import useAuth from "../../../Hock/useAuth";
 import swal from 'sweetalert';
 const Navbar = () => {
@@ -18,7 +17,7 @@ const Navbar = () => {
         <NavLink
             to="/"
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "chill" : ""
+                isPending ? "pending" : isActive ? "btn-neutral" : ""
             }
         >
         Home
@@ -28,7 +27,7 @@ const Navbar = () => {
         <NavLink
             to="/about"
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "chill" : ""
+                isPending ? "pending" : isActive ? "btn-neutral" : ""
             }
         >
         About
@@ -38,7 +37,7 @@ const Navbar = () => {
         <NavLink
             to="/contact"
             className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "chill" : ""
+                isPending ? "pending" : isActive ? "btn-neutral" : ""
             }
         >
         Contact

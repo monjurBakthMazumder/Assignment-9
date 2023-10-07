@@ -94,8 +94,7 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer:
- B: `Hi there, undefined`
+#### Answer: --- B: `Hi there, undefined`
 
 <i>Write your explanation here</i>
 

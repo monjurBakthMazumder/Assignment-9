@@ -16,13 +16,12 @@ const Login = () => {
         console.log(email, password);
         //login user 
         loginUser(email, password)
-        .then(result=>{
-            console.log(result.user);
+        .then(()=>{
             navigate(pathname ? pathname : '/')
             swal("Successful!", "Successfully login!", "success");
         })
-        .catch(err => {
-            console.error(err.message);
+        .catch(() => {
+            swal ( "Oops" ,  "Your email or password don't match!" ,  "error" )
         })
     }
     return (
